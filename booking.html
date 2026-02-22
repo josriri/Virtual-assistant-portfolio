@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Executive Virtual Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Eva's Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="booking.html" class="active">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p class="section-intro">Schedule your consultation or send me a message</p>
+
+            <div class="booking-grid">
+                <!-- Contact Form -->
+                <div class="booking-form-wrapper">
+                    <h2>Contact Form</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="starter">Starter Package</option>
+                                <option value="professional">Professional Package</option>
+                                <option value="enterprise">Enterprise Package</option>
+                                <option value="custom">Custom Solution</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p><a href="mailto:hello@executiveva.com">hello@executiveva.com</a></p>
+                                <p class="info-detail">Response within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">📱</div>
+                            <div class="info-content">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                                <p class="info-detail">Monday - Friday, 9AM - 5PM EST</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h3>Location</h3>
+                                <p>Remote / Virtual</p>
+                                <p class="info-detail">Available Worldwide</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h3>Availability</h3>
+                                <p>Flexible scheduling</p>
+                                <p class="info-detail">24/7 support available</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-section">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="LinkedIn">in</a>
+                            <a href="#" class="social-icon" title="Twitter">tw</a>
+                            <a href="#" class="social-icon" title="Facebook">f</a>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial -->
+                    <div class="testimonial-box">
+                        <h3>Client Testimonial</h3>
+                        <p>"Working with this virtual assistant has been transformative for my business. Highly professional and reliable!"</p>
+                        <p class="testimonial-author">- CEO, Tech Startup</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frequently Asked Questions -->
+            <section class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How do I get started?</h3>
+                        <p>Simply fill out the contact form or call us. We'll schedule a consultation to discuss your needs and find the perfect package for you.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What's your response time?</h3>
+                        <p>We typically respond to inquiries within 24 hours during business days. Premium packages include faster response times.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I customize my package?</h3>
+                        <p>Absolutely! We offer fully customizable enterprise packages tailored to your specific business requirements.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What if I need to cancel?</h3>
+                        <p>We offer flexible cancellation terms with 30 days notice for monthly packages. No long-term contracts required.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you work with international clients?</h3>
+                        <p>Yes! I work with clients worldwide across all time zones. Virtual assistance knows no boundaries.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How secure is my information?</h3>
+                        <p>I maintain strict confidentiality and use encrypted communication channels. All client data is kept secure and private.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Executive Virtual Assistant Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
